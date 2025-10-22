@@ -1,0 +1,9 @@
+2025-10-15 18:02:44,653 - ERROR - Error generating insight: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable
+2025-10-15 18:03:57,488 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-15 18:03:57,490 - ERROR - Error generating insight: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-15 18:04:25,196 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-10-15 18:04:25,197 - ERROR - Error generating insight: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2025-10-15 18:15:43,776 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:15:43,801 - INFO - AI insight generated for 1800 ml intake.
+2025-10-15 18:21:57,820 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-15 18:21:57,844 - INFO - AI insight generated for 1800 ml intake.

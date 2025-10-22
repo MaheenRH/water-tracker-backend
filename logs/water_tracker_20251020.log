@@ -1,0 +1,2 @@
+2025-10-20 14:47:07,584 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-20 14:47:07,623 - INFO - AI insight generated and stored for 1800 ml intake.

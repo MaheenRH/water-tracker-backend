@@ -6,3 +6,4 @@ sdk: streamlit
 sdk_version: 1.38.0
 app_file: app.py
 pinned: false
+cmd: ["streamlit", "run", "app.py", "--server.port", "7860", "--server.address", "0.0.0.0"]

@@ -4,15 +4,8 @@ import sqlite3
 import pandas as pd
 import datetime
 
-import os
-import subprocess
-
-# Run FastAPI backend in background when hosted on Spaces
-if not os.environ.get("RUNNING_IN_SPACES"):
-    subprocess.Popen(["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000"])
-
 # ------------------ CONFIG ------------------
-API_URL = "http://127.0.0.1:8000/log_water"
+API_URL = "http://0.0.0.0:8000/log_water"
 DB_PATH = "water_tracker.db"
 DAILY_GOAL = 2500  # ml
 

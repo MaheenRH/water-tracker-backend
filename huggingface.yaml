@@ -1,9 +1,12 @@
-title: "AI Water Intake Tracker"
-emoji: 💧
-colorFrom: blue
-colorTo: purple
-sdk: streamlit
-sdk_version: 1.38.0
-app_file: app.py
+---
+title: "💧 AI Water Intake Tracker"
+emoji: "💦"
+colorFrom: "blue"
+colorTo: "purple"
+sdk: "streamlit"
+sdk_version: "1.38.0"
+app_file: "app.py"
 pinned: false
-cmd: ["streamlit", "run", "app.py", "--server.port", "7860", "--server.address", "0.0.0.0"]
+---
+
+Track your daily water intake and get AI-powered hydration insights.

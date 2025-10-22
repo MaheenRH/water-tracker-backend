@@ -5,7 +5,7 @@ import pandas as pd
 import datetime
 
 # ------------------ CONFIG ------------------
-API_URL = "http://0.0.0.0:8000/log_water"
+API_URL = "https://water-backend.onrender.com/log_water"
 DB_PATH = "water_tracker.db"
 DAILY_GOAL = 2500  # ml
 

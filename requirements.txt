@@ -1,28 +1,10 @@
-# --- Core Frameworks ---
-fastapi==0.115.0
-uvicorn==0.30.1
-
-# --- Frontend Dashboard ---
-streamlit==1.38.0
-
-# --- Database / ORM (optional but recommended) ---
-sqlalchemy==2.0.31
-pydantic==2.9.0
-
-# --- AI / LangChain Components ---
-langchain==0.2.14
-langchain-community==0.2.10
-huggingface-hub==0.24.6
-
-# --- Optional LLM Providers ---
-#openai==1.43.0        # if you decide to use OpenAI or OpenRouter
-groq==0.4.0           # free, fast Llama 3 access
-#google-generativeai==0.8.3  # for Gemini API
-
-# --- Utilities ---
-requests==2.32.3
-python-dotenv==1.0.1  # to manage API keys securely
-pandas==2.2.3         # for dashboard data handling
-
-# --- Dev Tools ---
-ipykernel==6.29.5
+streamlit
+fastapi
+sqlalchemy
+python-dotenv
+langchain
+langchain-groq
+requests
+pandas
+matplotlib
+plotly

@@ -72,7 +72,7 @@ def get_logs(start_date, end_date):
 
 # ------------------ DISPLAY LOGS ------------------
 st.markdown("---")
-st.subheader("📊 Hydration History")
+st.subheader("Hydration History")
 
 try:
     df = get_logs(start_date, end_date)

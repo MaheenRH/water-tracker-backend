@@ -1,5 +1,6 @@
 streamlit
 fastapi
+uvicorn[standard]
 sqlalchemy
 python-dotenv
 langchain
